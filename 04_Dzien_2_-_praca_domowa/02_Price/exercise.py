@@ -18,11 +18,11 @@ class Price23Vat:
         self.__init__(new_brutto)
 
     def set_netto(self, value):
-        new_brutto = value * 0.77
+        new_brutto = value * 1.23
         self.__init__(new_brutto)
 
     def set_tax(self, value):
-        new_brutto = value * 0.23
+        new_brutto = (value / 23) * 123
         self.__init__(new_brutto)
 
 
